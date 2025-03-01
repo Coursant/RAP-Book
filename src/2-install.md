@@ -1,4 +1,4 @@
-# Chapter 2. Installation Guide
+# Chapter 2. Installation and Usage Guide
 
 ## Platform Support
 * Linux
@@ -81,3 +81,19 @@ General command:
 ```
 cargo uninstall rap
 ```
+
+## Usage
+
+To analyze system software without std (e.g., [Asterinas](https://github.com/asterinas/asterinas)), try the following command:
+```
+cargo rapx -F -- --target x86_64-unknown-none
+```
+
+
+To analyze the Rust standard library, try the following command:
+```
+cargo rapx -stdsp -- -Z build-std --target x86_64-unknown-linux-gnu
+```
+
+
+
