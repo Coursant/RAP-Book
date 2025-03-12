@@ -10,7 +10,7 @@ RAPx is based on Rust version nightly-2024-10-12. You can install this version u
 rustup toolchain install nightly-2024-10-12 --profile minimal --component rustc-dev,rust-src,llvm-tools-preview
 ```
 
-If you have multiple Rust versions, please ensure the default version is set to nightly-2024-06-30.
+If you have multiple Rust versions, please ensure the default version is set to nightly-2024-10-12.
 ```
 rustup show
 ```
