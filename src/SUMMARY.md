@@ -8,7 +8,7 @@
   - [Alias Analysis](./5.1-alias.md)
   - [API-dependency Graph](./5.2-api.md)
   - [Control-flow Analysis](./5.3-control.md)
-  - [Data-flow Analysis](./5.4-value.md)
+  - [Data-flow Analysis](./5.4-data.md)
   - [Heap-ownership Analysis](./5.5-heap.md)
 - [Advanced Applications](./6-application.md)
   - [Dangling Pointer Detection](./6.1-dangling.md)
