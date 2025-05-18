@@ -30,7 +30,7 @@ git clone https://github.com/Artisan-Lab/RAPx.git
 You can combine the previous two steps into a single command:
 
 ```shell
-cargo +nightly-2024-02-01 install rapx --git https://github.com/Artisan-Lab/RAPx.git
+cargo +nightly-2025-02-01 install rapx --git https://github.com/Artisan-Lab/RAPx.git
 ```
 
 For macOS users, you may encounter compilation errors related to Z3 headers and libraries. There are two solutions:
