@@ -1,4 +1,4 @@
-# Summary
+# Catalog 
 
 - [Introduction](./1-intro.md)
 - [Installation Guide](./2-install.md)
@@ -10,6 +10,7 @@
   - [Control-flow Analysis](./5.3-control.md)
   - [Data-flow Analysis](./5.4-data.md)
   - [Heap-ownership Analysis](./5.5-heap.md)
+  - [Range Analysis](./5.6-range.md)
 - [Advanced Applications](./6-application.md)
   - [Dangling Pointer Detection](./6.1-dangling.md)
   - [Memory Leakage Detection](./6.2-memleak.md)
