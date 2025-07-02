@@ -9,7 +9,7 @@
   - [API-dependency Graph](./5.2-api.md)
   - [Control-flow Analysis](./5.3-control.md)
   - [Data-flow Analysis](./5.4-data.md)
-  - [Heap-ownership Analysis](./5.5-heap.md)
+  - [Owned Heap Analysis](./5.5-ownedheap.md)
   - [Range Analysis](./5.6-range.md)
 - [Advanced Applications](./6-application.md)
   - [Dangling Pointer Detection](./6.1-dangling.md)
