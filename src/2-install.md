@@ -7,10 +7,10 @@
 ## Preparation
 The latest RAPx is developped based on Rust version nightly-2024-08-05. You can install this version using the following command.
 ```shell
-rustup toolchain install nightly-2025-08-20 --profile minimal --component rustc-dev,rust-src,llvm-tools-preview
+rustup toolchain install nightly-2025-09-03 --profile minimal --component rustc-dev,rust-src,llvm-tools-preview
 ```
 
-If you have multiple Rust versions, please ensure the default version is set to nightly-2025-08-20.
+If you have multiple Rust versions, please ensure the default version is set to nightly-2025-09-03.
 ```
 rustup show
 ```
@@ -30,7 +30,7 @@ git clone https://github.com/Artisan-Lab/RAPx.git
 You can combine the previous two steps into a single command:
 
 ```shell
-cargo +nightly-2025-08-20 install rapx --git https://github.com/Artisan-Lab/RAPx.git
+cargo +nightly-2025-09-03 install rapx --git https://github.com/Artisan-Lab/RAPx.git
 ```
 
 For macOS users, you may encounter compilation errors related to Z3 headers and libraries. There are two solutions:
@@ -45,7 +45,7 @@ Alternatively, you can modify the [Cargo.toml](https://github.com/Artisan-Lab/RA
 
 ```
 [dependencies]
-z3 = {version="0.12.1", features = ["static-link-z3"]}
+z3 = {version="0.13.3", features = ["static-link-z3"]}
 ```
 
 After this step, you should be able to see the RAPx plugin for cargo.
