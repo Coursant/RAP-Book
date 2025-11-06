@@ -18,3 +18,4 @@
   - [Unsafe Code Audit](./6.4-unsafe.md)
 - [Utilities](./7-utilities.md)
   - [Logging](./7.1-log.md)
+- [Case Study](./8-casestudy.md)
