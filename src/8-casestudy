@@ -1,0 +1,8 @@
+# 8. Case Study
+
+## 8.1 Asterinas
+
+```shell
+cd ostd
+cargo rapx -audit -- --target x86_64-unknown-none
+```
