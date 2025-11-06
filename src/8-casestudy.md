@@ -2,9 +2,8 @@
 
 ## 8.1 Asterinas
 
-[Asterinas](https://github.com/asterinas/asterinas) was built with an older toolchain (2025-02-01).
-It can be built using the RAPx toolchain with only a few minor modifications.
-The following command can be used:
+[Asterinas](https://github.com/asterinas/asterinas) uses an older toolchain (2025-02-01).
+To apply RAPx, a few minor modifications are required (see an example [here (https://github.com/Artisan-Lab/asterinas-rapx)). RAPx analysis can be performed using:
 
 ```shell
 cd ostd
