@@ -10,9 +10,14 @@ let hir = tcx.hir();
 let mir = optimized_mir(def_id); // def_id is of type DefId
 ```
 
+## Key Terms in MIR
+
+- [Place](https://doc.rust-lang.org/beta/nightly-rustc/rustc_middle/mir/struct.Place.html)
+
 ## Command to Display HIR/MIR
 Execute the following command to obtain the HIR/MIR of the source code.
 ```
 cargo rustc -- -Z unpretty=hir-tree
 cargo rustc -- -Zunpretty=mir
 ```
+
