@@ -7,10 +7,10 @@
 ## Preparation
 The latest RAPx is developped based on Rust version nightly-2024-08-05. You can install this version using the following command.
 ```shell
-rustup toolchain install nightly-2025-09-10 --profile minimal --component rustc-dev,rust-src,llvm-tools-preview
+rustup toolchain install nightly-2025-12-06 --profile minimal --component rustc-dev,rust-src,llvm-tools-preview
 ```
 
-If you have multiple Rust versions, please ensure the default version is set to nightly-2025-09-10.
+If you have multiple Rust versions, please ensure the default version is set to nightly-2025-12-06.
 ```
 rustup show
 ```
@@ -30,7 +30,7 @@ git clone https://github.com/Artisan-Lab/RAPx.git
 You can combine the previous two steps into a single command:
 
 ```shell
-cargo +nightly-2025-09-10 install rapx --git https://github.com/Artisan-Lab/RAPx.git
+cargo +nightly-2025-12-06 install rapx --git https://github.com/Artisan-Lab/RAPx.git
 ```
 
 For macOS users, you may encounter compilation errors related to Z3 headers and libraries. There are two solutions:
